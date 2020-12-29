@@ -1,0 +1,5 @@
+﻿Install-Package Microsoft.EntityFrameworkCore.Tools -Version 3.1.5
+[Package Manager Console]
+[Default project : iToons]
+Add-Migration FirstMigration -Context SqliteContext
+Update-Database
